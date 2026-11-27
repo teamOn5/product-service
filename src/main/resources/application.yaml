@@ -4,7 +4,7 @@ server:
 
 spring:
   application:
-    name: order-service
+    name: product-service
   datasource:
     url: ${SPRING_DATASOURCE_URL}
     username: ${SPRING_DATASOURCE_USERNAME}
@@ -38,6 +38,6 @@ management:
 
 springdoc:
   api-docs:
-    path: /api/order/v3/api-docs
+    path: /api/product/v3/api-docs
   swagger-ui:
     path: /swagger-ui.html
